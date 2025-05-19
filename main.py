@@ -29,8 +29,8 @@ async def on_member_join(membro: discord.Member):
     embed.add_field(
         name='Canais Importantes',
         value='• <#ajuda>: Transformamos erros em aprendizado\n'
-            '• <#geral>: Compartilhamos dores e memes\n'
-            '• <#projetos>: Construímos o futuro (com bugs inclusos)',
+              '• <#geral>: Compartilhamos dores e memes\n'
+              '• <#projetos>: Construímos o futuro (com bugs inclusos)',
         inline=False
     )
 
@@ -54,8 +54,14 @@ async def info(ctx: commands.Context):
 
     embed.add_field(
         name='Versão',
-        value='1.0.0',
+        value='1.0.1',
         inline=True
+    )
+
+    embed.add_field(
+        name='Colaboradores',
+        value='Pedro Lucas G. de Sousa \nTayla Maria de S. Gomes \nElissandra P. Rodriges \nMaria Clara de S. Medrado',  # Substitua pelos nomes reais
+        inline=False
     )
 
     embed.add_field(
